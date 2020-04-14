@@ -1,0 +1,53 @@
+    body{
+        width: auto;
+        height: auto;
+        border: 1px solid black;
+        margin: 0 auto;
+        background: #ddd;
+    }
+    header{
+        height: auto;
+        width: 100%;
+        border: 0px solid black;
+        float: left;
+        background: #CF3;
+    }
+    
+    
+    
+    nav{
+        height: auto;
+        width: auto;
+        border: 1px solid black;
+        float: left;
+        background: #6F9;
+        
+    
+        
+       
+    }
+
+    aside{
+        float:auto;
+    }
+    footer{
+        height: auto;
+        width: auto;
+        clear: both;
+        border: 1px solid rgb(136, 76, 76);
+        background: #FF9;
+    }
+    @media screen and (min-width:400px ) {
+        main{
+            float: top;
+        }  
+        nav{
+            height: auto;
+            width: auto;
+            float: right;
+            background: gold;
+            margin: auto;
+    }
+    aside {
+        float:auto;
+    }
